@@ -1,5 +1,7 @@
 # Higher-Dimension Multimodal Multiobjective Optimization
 
+**[逐文件路径与分类](FILEMAP.md) · [机器可读清单](FILEMAP.csv)**
+
 Competition materials for higher-dimensional multimodal multiobjective optimization.
 
 ## Files
@@ -17,8 +19,14 @@ Competition materials for higher-dimensional multimodal multiobjective optimizat
 
 The original ZIPs are frozen artifacts; `source/` copies preserve the exact member bytes. Running the code still requires the matching archive data, working directory and dependencies; standalone execution has not been verified.
 
-## Archive layout inspected on 2026-09-15
+## Directory roles and release boundary (2026-09-21)
 
-`WCCI-CEC2026-HDMMF.zip` contains 30 files: 15 MATLAB problem classes and 15 reference MAT files under `HDMMF/`. For example, `HDMMF/NMMF1.m` derives from `PROBLEM` and loads `NMMF1_Reference_PSPF_data.mat`.
+| Location | Role |
+|---|---|
+| [source/WCCI-CEC2026-HDMMF/HDMMF/](source/WCCI-CEC2026-HDMMF/HDMMF/) | 15 benchmark problem classes for browsing |
+| `WCCI-CEC2026-HDMMF.zip/HDMMF/*_Reference_PSPF_data.mat` | 15 reference datasets; original bytes remain in the ZIP |
+| Root DOCX files | Competition entry instructions and test-problem introduction |
 
-The archive directory and selected source text were inspected; the compatible platform version, competition environment and numerical results were not validated. Keep the reference data with its corresponding problem-source version. Matching reference MAT files in another release do not establish identical MATLAB sources.
+This repository supplies benchmark problems, not a complete optimization algorithm or platform. [NMMF1.m](source/WCCI-CEC2026-HDMMF/HDMMF/NMMF1.m) inherits from external `PROBLEM` and loads `NMMF1_Reference_PSPF_data.mat` by filename. A future run needs a compatible PlatEMO environment and the matching extracted MAT files visible on the MATLAB path; the source-only browsing tree is insufficient. No exact platform version or competition runtime setup has been established here.
+
+All 30 ZIP members passed CRC/path/index-hash checks; the 15 committed source copies match their original member bytes. No MATLAB execution, numerical comparison or DOCX scientific-content review was performed in this check. Keep this package's class/data pairing: equal MAT bytes across releases do not prove equal problem implementations. This is a release snapshot, not a live project-memory record.

@@ -1,0 +1,24 @@
+path,category,scope,bytes,git_blob_sha,checks
+ARCHIVE_INDEX.json,configuration-or-structured-data,tracked-version; authority requires project record,7698,e45b1b945cfef8b55fc881462e3deeff8279a930,git-blob-bytes-match; json-parse-pass
+ARCHIVE_INDEX.md,documentation,tracked-version; authority requires project record,5116,5c7ee73f11d3b89b9fde590efbd7a85cd3e465a1,git-blob-bytes-match
+FILEMAP.csv,navigation-index,generated-catalog,,,self-index; verified as Git object; hash excluded to avoid recursion
+FILEMAP.md,navigation-index,generated-catalog,,,self-index; verified as Git object; hash excluded to avoid recursion
+Introduction to WCCI-CEC2026 HDMMO Test Problem.docx,paper-or-document,tracked-version; authority requires project record,59094,429b2a46a01ca0a0710c755a16cc808036c6c676,git-blob-bytes-match; zip-crc-all-members-pass
+README.md,documentation,tracked-version; authority requires project record,2517,3f9e892ea6d164f860b88c9eee3cb119d2db4286,reviewed-change
+WCCI-CEC2026 HDMMO Competition Entry Instruction Document.docx,paper-or-document,tracked-version; authority requires project record,450638,9e2cb646e8fcbfd1f3181945fb3c7da327b07f88,git-blob-bytes-match; zip-crc-all-members-pass
+WCCI-CEC2026-HDMMF.zip,archive-package,tracked-version; authority requires project record,19767487,2e14a9d7472bf7ad94c372c37b81e8a02e0c3f9a,git-blob-bytes-match; zip-crc-all-members-pass
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF1.m,source-code,archive-browsing-copy,3197,9eb35225cbb8b96fa392544823f40683ac83f0d3,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF10.m,source-code,archive-browsing-copy,3863,af685f2f9937f49397739dddcb72d5f18725aad5,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF11.m,source-code,archive-browsing-copy,6159,dbfce1d36f3120217d9426d9c7c4cd517a394b7d,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF12.m,source-code,archive-browsing-copy,5401,5d5ec31a5b9307213846414f6cd675d11412bd23,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF13.m,source-code,archive-browsing-copy,4426,800054db1fb8206bcca3d7a1ec3cce8003c6afce,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF14.m,source-code,archive-browsing-copy,4518,aee5f60062fd2b01feadbcf697ef8060c97addd9,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF15.m,source-code,archive-browsing-copy,5914,879b53a793243cfe7a6b43a74bae23a8fd5082cb,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF2.m,source-code,archive-browsing-copy,2456,05a112ff7bdf1c75b9bd818c78ddc6a293e29869,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF3.m,source-code,archive-browsing-copy,3942,4ba4925a189e22bc93e3e1fd81889d27a830360a,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF4.m,source-code,archive-browsing-copy,3510,ec0cfaa8f5a64ca060e75f857c24558a11f2b484,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF5.m,source-code,archive-browsing-copy,4201,9d47d5406225f968dcb98c2b4df1fe85e1153d50,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF6.m,source-code,archive-browsing-copy,4016,4373ee10f47f6eab35d5b65a6893fa192b726641,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF7.m,source-code,archive-browsing-copy,4300,6f2fc11d53098efa7a205044f284f8aad6add982,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF8.m,source-code,archive-browsing-copy,3502,de6eef24d0c6b79329fa61adf2b3056e56cab945,git-blob-bytes-match
+source/WCCI-CEC2026-HDMMF/HDMMF/NMMF9.m,source-code,archive-browsing-copy,4337,b5e280ecc247f20f53fa4f48cc80a528f4fc3420,git-blob-bytes-match
