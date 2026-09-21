@@ -4,7 +4,7 @@ ARCHIVE_INDEX.md,documentation,tracked-version; authority requires project recor
 FILEMAP.csv,navigation-index,generated-catalog,,,self-index; verified as Git object; hash excluded to avoid recursion
 FILEMAP.md,navigation-index,generated-catalog,,,self-index; verified as Git object; hash excluded to avoid recursion
 Introduction to WCCI-CEC2026 HDMMO Test Problem.docx,paper-or-document,tracked-version; authority requires project record,59094,429b2a46a01ca0a0710c755a16cc808036c6c676,git-blob-bytes-match; zip-crc-all-members-pass
-README.md,documentation,tracked-version; authority requires project record,2517,3f9e892ea6d164f860b88c9eee3cb119d2db4286,reviewed-change
+README.md,documentation,tracked-version; authority requires project record,2873,dae799a135536b798fe28e7c7eebaf2c0835b744,reviewed-change; solver-policy-documentation-only
 WCCI-CEC2026 HDMMO Competition Entry Instruction Document.docx,paper-or-document,tracked-version; authority requires project record,450638,9e2cb646e8fcbfd1f3181945fb3c7da327b07f88,git-blob-bytes-match; zip-crc-all-members-pass
 WCCI-CEC2026-HDMMF.zip,archive-package,tracked-version; authority requires project record,19767487,2e14a9d7472bf7ad94c372c37b81e8a02e0c3f9a,git-blob-bytes-match; zip-crc-all-members-pass
 source/WCCI-CEC2026-HDMMF/HDMMF/NMMF1.m,source-code,archive-browsing-copy,3197,9eb35225cbb8b96fa392544823f40683ac83f0d3,git-blob-bytes-match

@@ -1,6 +1,9 @@
 # Higher-Dimension-Multimodal-Multiobjective-Optimization 文件路径总表
 
-生成日期：2026-09-21。检查基线：`5fdca661ec6da973ec64ab5e76594fba09e73ecf`（默认分支 `main`）；含本次整理提交的增量。
+<!-- solver-policy-filemap-20260922 -->
+> **2026-09-22 记忆同步：** 用户今后不再使用 Gurobi，不再以续期为前提。文件表按本轮基线和文档增量更新；未变内容复用同哈希的前轮检查，本轮不重做算法功能认证。 当前求解器政策见本仓 README。
+
+生成日期：2026-09-22。检查基线：`d8babf464f399199bbde937b9aab3f072dddebed`（默认分支 `main`）；含本次整理提交的增量。
 
 用途：WCCI-CEC2026 高维多模态多目标竞赛材料。
 
